@@ -32,7 +32,6 @@ def main():
             screen.blit(bg_img2,[-x, 0])
             screen.blit(bg_img,[1600-x,0])
             
-        
         s = (tmr // 75) %2
         screen.blit(kk_imgs[s],[300, 200])
         pg.display.update()
